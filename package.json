@@ -1,0 +1,16 @@
+{
+  "name": "cth-demo-vulnerable-storefront",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CTH prototype demo target (deliberately vulnerable). Not for deployment.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/basic.test.js"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "lodash": "4.17.15"
+  },
+  "license": "UNLICENSED"
+}
